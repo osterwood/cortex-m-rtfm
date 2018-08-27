@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["App","Checked `App`"],["Idle","Checked `Idle`"],["Init","Checked `Init`"],["Static","The `: $ty [ = $expr]` part of a static"],["Task","The RHS part (`: { .. }`) of a task"]],"type":[["Idents","Checked `Idents`"],["Statics","Checked `Statics`"],["Tasks","Checked `Tasks`"]]});

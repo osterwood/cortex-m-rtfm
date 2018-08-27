@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["app","The `app!` macro, a macro used to specify the tasks and resources of a RTFM application."]]});
