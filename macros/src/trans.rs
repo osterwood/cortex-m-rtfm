@@ -366,7 +366,7 @@ fn init(app: &App, main: &mut Vec<TokenStream>, root: &mut Vec<TokenStream>) {
                 }
 
                 let nr = e.nr();
-                let priority = task.priority;
+                let priority = task.priority as u32;
                 exceptions.push(quote! {
                     let prio_bits = #device::NVIC_PRIO_BITS;
                     let hw = ((1 << prio_bits) - #priority) << (8 - prio_bits);
